@@ -39,7 +39,7 @@ console.log('Error detected')
 
   return (
     <div>
-      
+      <b>Bold</b>
       <h2>Joke Api</h2>
       {isLoading && <p>Loading ...</p>}
       {joke && <div>{joke}</div>}
